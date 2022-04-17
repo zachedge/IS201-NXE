@@ -1,0 +1,160 @@
+/* Zach Edgerton 4/16 */
+/* My custom styles */
+
+/* I inserted this: one of my overwrites : on 4 styles I overwrote, though there are a bunch more I just picked 4 at random*/
+
+.navBackground{
+    background-color: darkslategrey;
+}
+
+.navText{
+    color: whitesmoke;
+}
+
+/* one of my overwrites */
+.mytext-faded {
+    color: whitesmoke;
+    z-index: 2;
+  }
+
+.body1{
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('../assets/images/Main\ BG.jfif');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.body2{
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('../assets/images/Main\ BG.jfif');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.mybg-colsec {
+    background-color: darkslategrey;
+    border: solid 2px rgb(255, 255, 255);
+  }
+
+  /* one of my overwrites */
+  .mybg-colsecDARK {
+    background-color: rgba(47, 79, 79, 0.634);
+    border: solid 2px rgb(255, 255, 255);
+  }
+
+  /* one of my overwrites */
+  .mybtn-colsec {
+    color: rgb(255, 255, 255);
+    background-color: darkslategrey;
+    border: solid 2px rgb(255, 255, 255);
+  }
+
+  .mytxt-colsec {
+      color: white;
+  }
+
+  .intro .myintro-img {
+    width: 60%;
+    float: right;
+  }
+
+  .mycommon{
+    position:absolute;
+    color:rgb(17, 38, 59);
+    background-color: darkslategrey; 
+    border: solid 2px rgb(255, 255, 255);
+    z-index: 1;
+}
+  .myheader{
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    height: 250px;
+    z-index: 1;
+    position: absolute;
+}
+
+.mycta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: darkslategray;
+    border: solid 2px rgb(255, 255, 255);
+  }
+
+  /* one of my overwrites */
+  .myfont{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  .abtimg1{
+      margin-top: 66pc;
+      margin-left: 10pc;
+      margin-right: 10pc;
+      width: 100pc;
+  }
+
+  .myabout-heading .myabout-heading-content {
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+    background-color: darkslategray;
+  }
+
+  .myimg-fluid {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .footpos{
+    position: fixed;
+    padding-left: 10pc;
+  }
+  .footer{
+    bottom: 5px;
+    height: 65px;
+    left: 375px;
+    right: 375px;
+    position:sticky;
+    text-align: center;
+}
+
+.footercol{
+  background-color: darkslategray;
+  position: fixed;
+}
+
+.txtpos{
+  text-align: center;
+  color: whitesmoke;
+}
+
+.imgpos{
+  align-self: auto;
+  height: 40pc;
+}
+
+.ribbon{
+  margin-left: 10pc;
+  margin-right: 10pc;
+  height: 5pc;
+  fill: darkslategray;
+}
